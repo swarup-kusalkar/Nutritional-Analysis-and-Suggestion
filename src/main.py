@@ -7,7 +7,6 @@ from crew import NourishBotAnalysisCrew, NourishBotRecipeCrew
 
 # Load environment variables (e.g., API keys)
 load_dotenv()
-OPENAI_API_KEY = os.environ.get('OPENAI_API_KEY')
 
 def run(image_path: str, dietary_restrictions: str, workflow_type: str):
     print("## Welcome to the AI NourishBot Crew")

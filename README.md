@@ -6,7 +6,7 @@ sdk_version: 5.12.0
 ---
 # AI NourishBot (aka AI Dietary Crew)
 
-AI NourishBot is an AI-powered nutrition assistant that leverages advanced vision models and natural language processing to detect ingredients from food images, filter ingredients based on dietary restrictions, estimate calories, provide detailed nutrient analysis, and generate recipe suggestions. This project demonstrates the use of CrewAI, WatsonX, and other AI tools to deliver insightful and personalized nutritional feedback.
+AI NourishBot is an AI-powered nutrition assistant that leverages advanced vision models and natural language processing to detect ingredients from food images, filter ingredients based on dietary restrictions, estimate calories, provide detailed nutrient analysis, and generate recipe suggestions. This project demonstrates the use of CrewAI, Google Gemini, Groq, and other AI tools to deliver insightful and personalized nutritional feedback.
 
 ## Features
 
@@ -64,9 +64,8 @@ The project is built using the CrewAI framework, which organizes agents and task
   ```
 4. **Create a .env file in the root directory with the following keys**:
    ```bash
-    WATSONX_API_KEY=your_watsonx_api_key
-    WATSONX_URL=your_watsonx_url
-    WATSONX_PROJECT_ID=your_watsonx_project_id
+    GEMINI_API_KEY=your_gemini_api_key
+    GROQ_API_KEY=your_groq_api_key
    ```
 ## Usage
 ### Run the Application
